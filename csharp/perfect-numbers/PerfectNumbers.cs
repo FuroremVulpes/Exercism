@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 
 public enum Classification
 {
@@ -12,16 +11,33 @@ public static class PerfectNumbers
 {
     public static Classification Classify(int number)
     {
-        int res = number.ToString().Select(x => (int)x).Aggregate((a, b) => a + b);
-        Console.WriteLine(res);
-        return Classification.Perfect;
-    }
-}
+        if (number <= 0)
+            throw new ArgumentOutOfRangeException();
+        
+        var aliquotSum = CountAliquotSum(number);
 
-internal class Test
-{
-    private static void Main()
+        if (aliquotSum == number && aliquotSum != 1)
+            return Classification.Perfect;
+        else if (aliquotSum > number)
+            return Classification.Abundant;
+
+        return Classification.Deficient;
+    }
+
+    private static int CountAliquotSum(int number)
     {
-        Console.WriteLine(PerfectNumbers.Classify(6));
+        var AliquotSum = 1; // 1 is also a divisor
+
+        for (int i = 2; i <= Math.Sqrt(number); i++)
+        {
+            if (number % i == 0)
+            {
+                if (number / i == i)
+                    AliquotSum += i;
+                else
+                    AliquotSum += (number / i + i);
+            }
+        }
+        return AliquotSum;
     }
 }

@@ -44,6 +44,7 @@ Calculate the number of grains of wheat on a chessboard given that the number on
 
 - [ ] **Perfect Numbers**: 
 Determine if a number is perfect, abundant, or deficient based on Nicomachus' (60 - 120 CE) classification scheme for natural numbers.
+[C#](./csharp/perfect-numbers/PerfectNumbers.cs)
 
 - [ ] **Collatz Conjecture**: 
 Solve the Collatz Conjecture or 3x+1 problem.
