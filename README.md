@@ -51,6 +51,7 @@ Solve the Collatz Conjecture or 3x+1 problem.
 
 - [ ] **Phone Number**: 
 Clean up user-entered phone numbers so that they can be sent SMS messages.
+[C#](./csharp/phone-number/PhoneNumber.cs)
 
 - [ ] **Scrabble Score**: 
 Given a word, compute the scrabble score for that word.
