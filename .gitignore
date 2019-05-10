@@ -1,0 +1,9 @@
+csharp/.vscode/
+python/.vscode/
+csharp/*/.vs/
+
+python/*/.exercism/
+csharp/*/.exercism/
+
+csharp/*/bin/
+csharp/*/obj/
