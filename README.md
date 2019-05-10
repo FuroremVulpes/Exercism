@@ -55,6 +55,7 @@ Clean up user-entered phone numbers so that they can be sent SMS messages.
 
 - [ ] **Scrabble Score**: 
 Given a word, compute the scrabble score for that word.
+[C#](./csharp/scrabble-score/ScrabbleScore.cs)
 
 - [ ] **Meetup**: 
 Calculate the date of meetups.
