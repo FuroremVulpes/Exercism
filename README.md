@@ -18,6 +18,7 @@ Given a year, report if it is a leap year.
 - [x] **Gigasecond**: 
 Given a moment, determine the moment that would be after a gigasecond has passed.
 [C#](./csharp/gigasecond/Gigasecond.cs)
+[Python](./python/gigasecond/gigasecond.py)
 </details>
 
 ## Side track
