@@ -29,6 +29,7 @@ Determine if a sentence is a pangram.
 - [x] **Isogram**: 
 Determine if a word or phrase is an isogram.
 [C#](./csharp/isogram/Isogram.cs)
+[Python](./python/isogram/isogram.py)
 
 - [x] **Acronym**: 
 Convert a phrase to its acronym.
