@@ -31,6 +31,10 @@ Determine if a word or phrase is an isogram.
 [C#](./csharp/isogram/Isogram.cs)
 [Python](./python/isogram/isogram.py)
 
+- [x] **Reverse String**: 
+Reverse a string.
+[Python](./python/reverse-string/reverse_string.py)
+
 - [x] **Acronym**: 
 Convert a phrase to its acronym.
 [C#](./csharp/acronym/Acronym.cs)
