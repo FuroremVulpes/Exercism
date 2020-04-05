@@ -7,3 +7,6 @@ csharp/*/.exercism/
 
 csharp/*/bin/
 csharp/*/obj/
+
+python/*/__pycache__/
+python/*/.pytest_cache
